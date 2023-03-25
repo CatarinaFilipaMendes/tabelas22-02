@@ -1,0 +1,18 @@
+table {
+font-family: Arial, Helvetica, sans-serif ;
+border-collapse: collapse;
+}
+
+td,
+th{
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+}
+thead, tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: darkgray;
+}
